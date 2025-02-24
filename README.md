@@ -21,10 +21,22 @@ Habit Tracker is a simple web application built with Node.js, Express, and Mongo
    ```bash
    git clone https://github.com/12farit21/web_tech2_final.git
    cd habit-tracker
-2. **Create .env**
-  MONGO_URI=<your-mongodb-connection-string>
-  JWT_SECRET=<your-secret-key>
-  PORT=3000
-3. **Initialize project**
-  npm install
-  npm start
+
+2. Create a .env file
+
+Create a .env file in the root directory and add the following environment variables:
+
+MONGO_URI=<your-mongodb-connection-string>
+JWT_SECRET=<your-secret-key>
+PORT=3000
+
+3. Install dependencies
+
+Run the following command to install project dependencies:
+
+npm install
+
+4. Start the project
+
+Start the application using:
+npm start
